@@ -4,8 +4,10 @@ I have created my first image of docker "HelloWorld" which shows message Hello W
 Here is link of my image of Docker Hub https://hub.docker.com/repository/docker/mdfurquan313/helloworld/general
 You can use this image, run a command as "docker pull mdfurquan313/helloworld". To run the image you need to run a command as "docker run -dp 3000:80 <image_id?"
 
-STEP:1
+
+
 If you want to download dockerfile locally download this folder "helloworld" locally 
+STEP:1
 1. Using "Git"
 2. Downloading Zip file of this repository
 
