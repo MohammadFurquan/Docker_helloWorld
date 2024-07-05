@@ -14,6 +14,24 @@ To pull the Docker image, run the following command:
 docker pull mdfurquan313/helloworld
 ```
 
+### Running the Docker Image
+To run the Docker image, execute the following command:
+
+```bash
+docker run -dp 3000:80 mdfurquan313/helloworld
+```
+
+### Building and Running Locally
+If you want to build and run the Docker image locally, follow these steps:
+
+
+## Step 1: Clone the Repository
+Using Git:
+
+```bash
+git clone https://github.com/MohammadFurquan/Docker_helloWorld.git
+```
+Or download the repository as a ZIP file and extract it.
 
 
 
