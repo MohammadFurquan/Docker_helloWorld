@@ -34,10 +34,39 @@ git clone https://github.com/MohammadFurquan/Docker_helloWorld.git
 Or download the repository as a ZIP file and extract it.
 
 
+## Step 2: Navigate to the Repository Folder
+Open a terminal and navigate to the folder where the repository is located:
+
+```bash
+cd Docker_helloWorld/helloworld
+```
+
+## Step 3: Build the Docker Image
+Run the following command to build the Docker image:
+
+```bash
+docker build -t <image_name> .
+```
+
+## Step 4: Verify the Docker Image
+Check the built image using the following command:
+
+```bash
+docker image ls
+```
+
+## Step 5: Run the Docker Image
+Run the following command to start the Docker image:
+
+```bash
+docker run -dp 3000:80 <image_name>
+```
 
 
-
-
+### Files in this Repository
+- *`Dockerfile`* : Defines the Docker image.
+- *`app.py`* : The application script.
+- *`requirements.txt`* : Lists the Python dependencies for the application.
 
 
 
